@@ -1,0 +1,6 @@
+target "SK_FaceAware"  do
+use_frameworks!
+
+pod 'UICircularProgressRing'
+end
+

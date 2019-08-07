@@ -1,0 +1,6 @@
+framework module Pods_SK_FaceAware {
+  umbrella header "Pods-SK_FaceAware-umbrella.h"
+
+  export *
+  module * { export * }
+}

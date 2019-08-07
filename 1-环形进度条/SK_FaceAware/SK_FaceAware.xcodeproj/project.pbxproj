@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02C3688F6FB7CC0F0AE27FD3 /* Pods_SK_FaceAware.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58E7376BD3FD3C79CF0FD2B3 /* Pods_SK_FaceAware.framework */; };
+		11304BD022F9719900AED17C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11304BCF22F9719900AED17C /* AppDelegate.swift */; };
+		11304BD222F9719900AED17C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11304BD122F9719900AED17C /* ViewController.swift */; };
+		11304BD522F9719900AED17C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11304BD322F9719900AED17C /* Main.storyboard */; };
+		11304BD722F9719B00AED17C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11304BD622F9719B00AED17C /* Assets.xcassets */; };
+		11304BDA22F9719B00AED17C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11304BD822F9719B00AED17C /* LaunchScreen.storyboard */; };
+		11304BE522F9719B00AED17C /* SK_FaceAwareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11304BE422F9719B00AED17C /* SK_FaceAwareTests.swift */; };
+		11304BF022F9719B00AED17C /* SK_FaceAwareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11304BEF22F9719B00AED17C /* SK_FaceAwareUITests.swift */; };
+		11304BFE22F973A100AED17C /* imh.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 11304BFD22F973A100AED17C /* imh.jpeg */; };
+		11304C0022F976D700AED17C /* 132.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 11304BFF22F976D600AED17C /* 132.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11304BE122F9719B00AED17C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11304BC422F9719800AED17C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11304BCB22F9719900AED17C;
+			remoteInfo = SK_FaceAware;
+		};
+		11304BEC22F9719B00AED17C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11304BC422F9719800AED17C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11304BCB22F9719900AED17C;
+			remoteInfo = SK_FaceAware;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11304BCC22F9719900AED17C /* SK_FaceAware.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SK_FaceAware.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11304BCF22F9719900AED17C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11304BD122F9719900AED17C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		11304BD422F9719900AED17C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11304BD622F9719B00AED17C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11304BD922F9719B00AED17C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11304BDB22F9719B00AED17C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11304BE022F9719B00AED17C /* SK_FaceAwareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SK_FaceAwareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11304BE422F9719B00AED17C /* SK_FaceAwareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SK_FaceAwareTests.swift; sourceTree = "<group>"; };
+		11304BE622F9719B00AED17C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11304BEB22F9719B00AED17C /* SK_FaceAwareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SK_FaceAwareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11304BEF22F9719B00AED17C /* SK_FaceAwareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SK_FaceAwareUITests.swift; sourceTree = "<group>"; };
+		11304BF122F9719B00AED17C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11304BFD22F973A100AED17C /* imh.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imh.jpeg; sourceTree = "<group>"; };
+		11304BFF22F976D600AED17C /* 132.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 132.jpeg; sourceTree = "<group>"; };
+		58E7376BD3FD3C79CF0FD2B3 /* Pods_SK_FaceAware.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SK_FaceAware.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA126D28D88DE21A8250AA23 /* Pods-SK_FaceAware.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SK_FaceAware.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SK_FaceAware/Pods-SK_FaceAware.debug.xcconfig"; sourceTree = "<group>"; };
+		F3491E5A9C244158D189977E /* Pods-SK_FaceAware.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SK_FaceAware.release.xcconfig"; path = "Pods/Target Support Files/Pods-SK_FaceAware/Pods-SK_FaceAware.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11304BC922F9719900AED17C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C3688F6FB7CC0F0AE27FD3 /* Pods_SK_FaceAware.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11304BDD22F9719B00AED17C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11304BE822F9719B00AED17C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11304BC322F9719800AED17C = {
+			isa = PBXGroup;
+			children = (
+				11304BCE22F9719900AED17C /* SK_FaceAware */,
+				11304BE322F9719B00AED17C /* SK_FaceAwareTests */,
+				11304BEE22F9719B00AED17C /* SK_FaceAwareUITests */,
+				11304BCD22F9719900AED17C /* Products */,
+				8391DE5FF506AEF3BFAA8EBA /* Pods */,
+				E558AC627DEA69DB0D0591B1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		11304BCD22F9719900AED17C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11304BCC22F9719900AED17C /* SK_FaceAware.app */,
+				11304BE022F9719B00AED17C /* SK_FaceAwareTests.xctest */,
+				11304BEB22F9719B00AED17C /* SK_FaceAwareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11304BCE22F9719900AED17C /* SK_FaceAware */ = {
+			isa = PBXGroup;
+			children = (
+				11304BCF22F9719900AED17C /* AppDelegate.swift */,
+				11304BD122F9719900AED17C /* ViewController.swift */,
+				11304BD322F9719900AED17C /* Main.storyboard */,
+				11304BFF22F976D600AED17C /* 132.jpeg */,
+				11304BD622F9719B00AED17C /* Assets.xcassets */,
+				11304BFD22F973A100AED17C /* imh.jpeg */,
+				11304BD822F9719B00AED17C /* LaunchScreen.storyboard */,
+				11304BDB22F9719B00AED17C /* Info.plist */,
+			);
+			path = SK_FaceAware;
+			sourceTree = "<group>";
+		};
+		11304BE322F9719B00AED17C /* SK_FaceAwareTests */ = {
+			isa = PBXGroup;
+			children = (
+				11304BE422F9719B00AED17C /* SK_FaceAwareTests.swift */,
+				11304BE622F9719B00AED17C /* Info.plist */,
+			);
+			path = SK_FaceAwareTests;
+			sourceTree = "<group>";
+		};
+		11304BEE22F9719B00AED17C /* SK_FaceAwareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				11304BEF22F9719B00AED17C /* SK_FaceAwareUITests.swift */,
+				11304BF122F9719B00AED17C /* Info.plist */,
+			);
+			path = SK_FaceAwareUITests;
+			sourceTree = "<group>";
+		};
+		8391DE5FF506AEF3BFAA8EBA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA126D28D88DE21A8250AA23 /* Pods-SK_FaceAware.debug.xcconfig */,
+				F3491E5A9C244158D189977E /* Pods-SK_FaceAware.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E558AC627DEA69DB0D0591B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58E7376BD3FD3C79CF0FD2B3 /* Pods_SK_FaceAware.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11304BCB22F9719900AED17C /* SK_FaceAware */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11304BF422F9719B00AED17C /* Build configuration list for PBXNativeTarget "SK_FaceAware" */;
+			buildPhases = (
+				210D5B12CBDE00371426E59F /* [CP] Check Pods Manifest.lock */,
+				11304BC822F9719900AED17C /* Sources */,
+				11304BC922F9719900AED17C /* Frameworks */,
+				11304BCA22F9719900AED17C /* Resources */,
+				5D5EF2B801BE2B4399CE0AEA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SK_FaceAware;
+			productName = SK_FaceAware;
+			productReference = 11304BCC22F9719900AED17C /* SK_FaceAware.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11304BDF22F9719B00AED17C /* SK_FaceAwareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11304BF722F9719B00AED17C /* Build configuration list for PBXNativeTarget "SK_FaceAwareTests" */;
+			buildPhases = (
+				11304BDC22F9719B00AED17C /* Sources */,
+				11304BDD22F9719B00AED17C /* Frameworks */,
+				11304BDE22F9719B00AED17C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11304BE222F9719B00AED17C /* PBXTargetDependency */,
+			);
+			name = SK_FaceAwareTests;
+			productName = SK_FaceAwareTests;
+			productReference = 11304BE022F9719B00AED17C /* SK_FaceAwareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11304BEA22F9719B00AED17C /* SK_FaceAwareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11304BFA22F9719B00AED17C /* Build configuration list for PBXNativeTarget "SK_FaceAwareUITests" */;
+			buildPhases = (
+				11304BE722F9719B00AED17C /* Sources */,
+				11304BE822F9719B00AED17C /* Frameworks */,
+				11304BE922F9719B00AED17C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11304BED22F9719B00AED17C /* PBXTargetDependency */,
+			);
+			name = SK_FaceAwareUITests;
+			productName = SK_FaceAwareUITests;
+			productReference = 11304BEB22F9719B00AED17C /* SK_FaceAwareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11304BC422F9719800AED17C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = AlexanderYeah;
+				TargetAttributes = {
+					11304BCB22F9719900AED17C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					11304BDF22F9719B00AED17C = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 11304BCB22F9719900AED17C;
+					};
+					11304BEA22F9719B00AED17C = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 11304BCB22F9719900AED17C;
+					};
+				};
+			};
+			buildConfigurationList = 11304BC722F9719800AED17C /* Build configuration list for PBXProject "SK_FaceAware" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11304BC322F9719800AED17C;
+			productRefGroup = 11304BCD22F9719900AED17C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11304BCB22F9719900AED17C /* SK_FaceAware */,
+				11304BDF22F9719B00AED17C /* SK_FaceAwareTests */,
+				11304BEA22F9719B00AED17C /* SK_FaceAwareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11304BCA22F9719900AED17C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11304BDA22F9719B00AED17C /* LaunchScreen.storyboard in Resources */,
+				11304C0022F976D700AED17C /* 132.jpeg in Resources */,
+				11304BD722F9719B00AED17C /* Assets.xcassets in Resources */,
+				11304BFE22F973A100AED17C /* imh.jpeg in Resources */,
+				11304BD522F9719900AED17C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11304BDE22F9719B00AED17C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11304BE922F9719B00AED17C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		210D5B12CBDE00371426E59F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SK_FaceAware-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D5EF2B801BE2B4399CE0AEA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SK_FaceAware/Pods-SK_FaceAware-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/UICircularProgressRing/UICircularProgressRing.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICircularProgressRing.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SK_FaceAware/Pods-SK_FaceAware-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11304BC822F9719900AED17C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11304BD222F9719900AED17C /* ViewController.swift in Sources */,
+				11304BD022F9719900AED17C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11304BDC22F9719B00AED17C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11304BE522F9719B00AED17C /* SK_FaceAwareTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11304BE722F9719B00AED17C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11304BF022F9719B00AED17C /* SK_FaceAwareUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11304BE222F9719B00AED17C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11304BCB22F9719900AED17C /* SK_FaceAware */;
+			targetProxy = 11304BE122F9719B00AED17C /* PBXContainerItemProxy */;
+		};
+		11304BED22F9719B00AED17C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11304BCB22F9719900AED17C /* SK_FaceAware */;
+			targetProxy = 11304BEC22F9719B00AED17C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11304BD322F9719900AED17C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11304BD422F9719900AED17C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11304BD822F9719B00AED17C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11304BD922F9719B00AED17C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11304BF222F9719B00AED17C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11304BF322F9719B00AED17C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11304BF522F9719B00AED17C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA126D28D88DE21A8250AA23 /* Pods-SK_FaceAware.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SK_FaceAware/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AlexanderYeah.SK-FaceAware";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11304BF622F9719B00AED17C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3491E5A9C244158D189977E /* Pods-SK_FaceAware.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SK_FaceAware/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AlexanderYeah.SK-FaceAware";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		11304BF822F9719B00AED17C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SK_FaceAwareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AlexanderYeah.SK-FaceAwareTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SK_FaceAware.app/SK_FaceAware";
+			};
+			name = Debug;
+		};
+		11304BF922F9719B00AED17C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SK_FaceAwareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AlexanderYeah.SK-FaceAwareTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SK_FaceAware.app/SK_FaceAware";
+			};
+			name = Release;
+		};
+		11304BFB22F9719B00AED17C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SK_FaceAwareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AlexanderYeah.SK-FaceAwareUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SK_FaceAware;
+			};
+			name = Debug;
+		};
+		11304BFC22F9719B00AED17C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SK_FaceAwareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AlexanderYeah.SK-FaceAwareUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SK_FaceAware;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11304BC722F9719800AED17C /* Build configuration list for PBXProject "SK_FaceAware" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11304BF222F9719B00AED17C /* Debug */,
+				11304BF322F9719B00AED17C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11304BF422F9719B00AED17C /* Build configuration list for PBXNativeTarget "SK_FaceAware" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11304BF522F9719B00AED17C /* Debug */,
+				11304BF622F9719B00AED17C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11304BF722F9719B00AED17C /* Build configuration list for PBXNativeTarget "SK_FaceAwareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11304BF822F9719B00AED17C /* Debug */,
+				11304BF922F9719B00AED17C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11304BFA22F9719B00AED17C /* Build configuration list for PBXNativeTarget "SK_FaceAwareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11304BFB22F9719B00AED17C /* Debug */,
+				11304BFC22F9719B00AED17C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11304BC422F9719800AED17C /* Project object */;
+}
