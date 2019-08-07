@@ -1,0 +1,16 @@
+PODS:
+  - PasswordTextField (1.2.0)
+
+DEPENDENCIES:
+  - PasswordTextField
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - PasswordTextField
+
+SPEC CHECKSUMS:
+  PasswordTextField: 2548de43f150fc90a014da47b0d97e31aada4b94
+
+PODFILE CHECKSUM: 3a9a36592ae7cfab43074fe856706e25ec41e2c7
+
+COCOAPODS: 1.5.3
