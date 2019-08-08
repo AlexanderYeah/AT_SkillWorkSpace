@@ -1,0 +1,7 @@
+target "CodeBench"  do
+use_frameworks!
+
+pod 'Toaster'
+end
+
+
